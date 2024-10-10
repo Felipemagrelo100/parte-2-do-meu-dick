@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do Felipe" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Felipe</p>
+        <h1>Eu ensino Artes Marciais</h1>
+        <p>Sou Lutador de Artes Marciais. Sou instutor de Taekwondo, Hapikido e Parkuor. Veja os meus pojetos!</p>
+        <p>Meus conhecimentos</p>
+        <div>
+            <p class="badge bg-secondary">faixa azul clara em tkd</p>
+            <p class="badge bg-secondary">faixa branca em hpk</p>
+            <p class="badge bg-secondary">12 anos de pkr</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto Taekwondo -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/taekwondo.png" class="card-img-top" alt="Imagem do projeto Taekwondo">
+                <div class="card-body">
+                    <h5 class="card-title">Taekwondo: A Arte do Ataque e Defesa</h5>
+                    <p class="card-text">Este projeto explora a filosofia e as técnicas do Taekwondo, com informações sobre as principais manobras, equipamentos e locais de prática. Aprenda sobre a história e benefícios dessa arte marcial.</p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalTaekwondo">Veja o projeto</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Projeto Hapkido -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/hapkido.png" class="card-img-top" alt="Imagem do projeto Hapkido">
+                <div class="card-body">
+                    <h5 class="card-title">Hapkido: A Arte da Defesa Pessoal</h5>
+                    <p class="card-text">Neste projeto, apresentamos os princípios do Hapkido, incluindo técnicas de defesa pessoal, controle de adversários e exercícios de meditação. Descubra como essa arte marcial pode ser aplicada no dia a dia.</p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalHapkido">Veja o projeto</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projeto Parkour -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/parkour.png" class="card-img-top" alt="Imagem do projeto Parkour">
+                <div class="card-body">
+                    <h5 class="card-title">Parkour: A Arte do Movimento</h5>
+                    <p class="card-text">Este projeto explora o Parkour como uma forma de expressão e movimento urbano, abordando técnicas de salto, escalada e superação de obstáculos. Aprenda sobre a filosofia que motiva os praticantes.</p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalParkour">Veja o projeto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modalTaekwondo" tabindex="-1" role="dialog" aria-labelledby="modalLabelTaekwondo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabelTaekwondo">Detalhes do Projeto Taekwondo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Aprofunde-se nas técnicas de Taekwondo e descubra recursos como vídeos de treino e links para academias locais.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalHapkido" tabindex="-1" role="dialog" aria-labelledby="modalLabelHapkido" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabelHapkido">Detalhes do Projeto Hapkido</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Explore as técnicas de defesa pessoal e a filosofia do Hapkido com vídeos e tutoriais.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalParkour" tabindex="-1" role="dialog" aria-labelledby="modalLabelParkour" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabelParkour">Detalhes do Projeto Parkour</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Descubra tutoriais e dicas sobre Parkour, incluindo vídeos de técnicas e dicas de segurança.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
